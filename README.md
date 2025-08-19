@@ -1,6 +1,6 @@
 # Run Configurations Extension
 
-A VS Code extension that provides IntelliJ IDEA-style Run/Debug Configuration management with smart usage tracking and intuitive organization.
+A VS Code extension that provides Run/Debug Configuration management with smart usage tracking and intuitive organization.
 
 ## 🌟 Key Features
 
@@ -126,7 +126,7 @@ The "Run Configurations" tree view in the Explorer sidebar provides:
 
 ### Architecture
 
-- **Modal-based Interface**: Uses VS Code's native QuickPick and InputBox APIs to create IntelliJ-like modal dialogs
+- **Modal-based Interface**: Uses VS Code's native QuickPick and InputBox APIs to create modal dialogs
 - **launch.json Integration**: Direct read/write operations on .vscode/launch.json files
 - **Template System**: Pre-built configuration templates for common development scenarios
 - **Real-time Updates**: Automatic tree view refresh when configurations change
@@ -197,18 +197,6 @@ src/
 - ✅ Real-time synchronization
 - ✅ Cancel protection during creation
 
-## Comparison with IntelliJ IDEA
-
-| Feature | IntelliJ IDEA | This Extension |
-|---------|---------------|----------------|
-| Create Configuration | ✅ Template wizard | ✅ Type selection → direct edit |
-| Edit Configuration | ✅ Form-based dialog | ✅ Webview form interface |
-| Delete Configuration | ✅ Context menu | ✅ Button + context menu |
-| Run Configuration | ✅ Dropdown + buttons | ✅ Tree view + webview buttons |
-| Configuration Types | ✅ Many built-in | ✅ Launch configs + Tasks |
-| File Management | ✅ Automatic | ✅ Automatic JSON updates |
-| UI Style | ✅ Native dialogs | ✅ VS Code webview integration |
-
 ## Keyboard Shortcuts
 
 - `Ctrl+Alt+R` / `Cmd+Alt+R` - Open Run Configurations Manager
@@ -216,7 +204,7 @@ src/
 
 ---
 
-**Perfect IntelliJ-style Run Configuration management for VS Code!** 🚀
+**Perfect Run Configuration management for VS Code!** 🚀
 | Edit Configurations Dialog | ✅ | ✅ |
 | Create from Templates | ✅ | ✅ |
 | Modal-based Editing | ✅ | ✅ |
@@ -227,7 +215,7 @@ src/
 
 ## Contributing
 
-This extension is designed to be a faithful recreation of IntelliJ IDEA's Run/Debug Configuration Modal functionality within VS Code's architecture. Contributions that maintain this design philosophy are welcome.
+This extension is designed to be a faithful recreation of Run/Debug Configuration Modal functionality within VS Code's architecture. Contributions that maintain this design philosophy are welcome.
 
 ## License
 
