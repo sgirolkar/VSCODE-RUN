@@ -1,0 +1,43 @@
+# Compiled output
+out/
+dist/
+
+# Node modules
+node_modules/
+
+# VS Code files
+.vscode-test/
+.vscode/settings.json
+.vscode/extensions.json
+
+# Extension packages
+*.vsix
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Personal/local files
+.env
+.env.local
+*.local
+
+# Test files that shouldn't be published
+test-fixes.js
+test.js
+debug-config.js
